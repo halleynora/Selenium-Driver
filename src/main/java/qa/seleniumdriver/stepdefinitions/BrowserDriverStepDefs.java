@@ -1,13 +1,12 @@
 package qa.seleniumdriver.stepdefinitions;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.By;
-import qa.seleniumdriver.BrowserDriver;
-import org.slf4j.LoggerFactory;
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.slf4j.LoggerFactory;
+import qa.seleniumdriver.BrowserDriver;
 
 public class BrowserDriverStepDefs {
 
@@ -15,8 +14,8 @@ public class BrowserDriverStepDefs {
 
     private Class<? extends Throwable> expectedException;
 
-    By googleSearchTextBox = By.className("#lst-ib");
-    By akiliInteractiveLink = By.className("#rso > div:nth-child(1) > div > div > div > div > h3 > a");
+    private By googleSearchTextBox = By.className("#lst-ib");
+    private By akiliInteractiveLink = By.className("#rso > div:nth-child(1) > div > div > div > div > h3 > a");
 
 
     @Given("^Im on the google page$")

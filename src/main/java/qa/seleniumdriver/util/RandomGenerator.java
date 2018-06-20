@@ -1,8 +1,6 @@
 package qa.seleniumdriver.util;
 
-/**
- * Created by halleyshort on 12/10/15.
- */
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -95,6 +93,12 @@ public class RandomGenerator {
             intList.add(rand.nextInt(length)+from);
         }
         return intList;
+    }
+
+    public static long generateUNIXTimeStamp() {
+        long unixTime = System.currentTimeMillis();
+
+        return unixTime;
     }
 
     public static void main(String[] args) {

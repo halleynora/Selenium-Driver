@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>qa.seleniumcommons</groupId>
-    <artifactId>selenium-commons</artifactId>
+    <groupId>qa.seleniumdriver</groupId>
+    <artifactId>selenium-driver</artifactId>
     <version>1.0.3</version>
-    <name>Selenium-Commons</name>
+    <name>Selenium-Driver</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -156,7 +156,7 @@
     </build>
     <!-- Source Control integration for this project. -->
     <scm>
-        <tag>selenium-commons-1.0.0</tag>
+        <tag>selenium-driver-1.0.0</tag>
     </scm>
     <!-- Defines repository information for distribution. -->
     <distributionManagement>
